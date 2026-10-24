@@ -1,0 +1,28 @@
+# Python environments and caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.privacy-tools/
+
+# Local IDE settings
+.idea/
+.vscode/
+
+# Full driving datasets, simulator binaries and training logs
+data_lake/
+data_mountain/
+beta_simulator_windows/
+logs/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Operating-system files
+Thumbs.db
+.DS_Store
